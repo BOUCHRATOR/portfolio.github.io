@@ -1270,6 +1270,29 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.download-btn-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-primary {
+  background-color: #101616;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #3c4c4e;
 }
